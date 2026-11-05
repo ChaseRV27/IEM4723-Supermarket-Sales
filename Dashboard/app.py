@@ -31,7 +31,6 @@ csv_path = Path(__file__).resolve().parent.parent / "data" / "SuperMarket Analys
 if csv_path.exists():
     df = pd.read_csv(csv_path)
     
-    st.write("Actual CSV column names:", df.columns.tolist())
 
     st.header("Supermarket Sales Data")
     st.success("Dataset loaded successfully!")
