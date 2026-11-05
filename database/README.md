@@ -3,7 +3,7 @@
 
 This folder contains the PostgreSQL database files for the Supermarket Sales Analytics System.
 
-The database schema and data import process are currently being planned.
+The PostgreSQL database has been created, and 1,000 supermarket sales transactions have been successfully imported and verified.
 
 ## Planned Files
 
